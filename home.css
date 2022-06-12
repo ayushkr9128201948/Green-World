@@ -1,0 +1,321 @@
+ @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap'); 
+
+ *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+html
+{
+    scroll-behavior: smooth;
+    font-family: 'Baloo Bhai 2', cursive ;
+}
+
+#home {
+    background: rgba(0, 0, 0, 0.233) url('img/pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-blend-mode: darken;
+    background-position: center center;
+    box-shadow:0 10px 10px -0px #000;
+}
+ .logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.logo img
+{
+    width: 60px;
+    height: auto;
+    border-radius: 50%;
+    margin: 0px 10px;
+    cursor: pointer;
+    transition: 0.2s all ease;
+}
+.logo img:hover
+{
+    transform: scale(1.1);
+}
+
+.logo h2
+{
+    color: rgb(245, 148, 148);
+    font-size: 2rem;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all ease-in-out 0.2s;
+}
+
+.logo h2:hover
+{
+    color: rgb(200, 233, 140);
+} 
+
+.home
+{
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .home-text
+{
+    max-width: 500px;
+    text-align: center;
+}
+
+
+.home .home-text h2 {
+    color: rgb(151, 9, 9);
+    font-size: 2rem;
+    font-weight: bolder;
+    animation: home-shadow 1.5s forwards;
+}
+
+.home .home-text span {
+    color: black;
+    font-size: 20px;
+    margin: 5px;
+    font-weight: bolder;
+    animation: home-shadow 1.5s forwards;
+    
+}
+@keyframes home-shadow {
+    from{
+        text-shadow: none;
+    }
+    
+    to{
+        text-shadow: 4px 4px 10px  white, -2px -2px 5px white;
+
+    }
+}
+
+
+
+
+
+/* media query start here */
+
+
+@media (max-width: 1065px){
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+.home {
+    height: 475px;
+}
+
+
+.home img {
+    margin: 50px 0px;
+}
+
+.home .home-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .home-text h2 {
+    font-size: 2rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.home .home-text span {
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+}
+
+@media (max-width:366px){
+    
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+    
+    .home .home-text h2 {
+        font-size: 1.5rem;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    .home .home-text span {
+        font-size: 15px;
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+
+    footer {
+        font-size: 13px;
+        font-family: 'Baloo Bhai 2', cursive;
+        margin-bottom: -50;
+    }
+
+   
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 0px;
+    font-size: 1rem;
+    font-family: 'Baloo Bhai 2';
+}
+.thou-coll{
+   width: 95vw;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Baloo Bhai 2';
+   margin: 20px;
+}
+
+.tcoll-head{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #716d6d;
+    border-radius: 20px;
+    width: 255px;
+    background-color: rgb(224, 219, 219);
+    color: rgb(87, 16, 16);
+    box-shadow: -2px -2px 5px black;
+
+}
+
+.tcoll-body ul{
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+    border: 1px solid rgb(158, 156, 156);
+    border-radius: 20px;
+    background-color: rgb(228, 226, 226);
+    box-shadow: -2px 2px 5px black;
+}
+
+.tcoll-body ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.tcoll-body ul li a{
+    box-shadow: 2px -2px 5px black;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 0px 3px;
+    background-color: white;
+    border: 2px solid rgb(10, 75, 10);
+    border-radius: 10px;
+    color: rgb(19, 19, 112);
+    transition: all ease-in-out 0.2s;
+}
+
+.tcoll-body ul li a:hover{
+    color: white;
+    background-color: green;
+}
+ 
+  
+  nav{
+    background: rgba(0, 0, 0, 0.85);
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+ 
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 3px;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  a.active,a:hover{
+    color: white;;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    border-radius: 50px;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    
+    nav ul li a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    nav ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    a:hover,a.active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ ul{
+      left: 0;
+    }
+  }
+ 
+  
+  
+  
+    

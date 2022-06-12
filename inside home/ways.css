@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.reduce-body
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    background-color:rgba(253, 124, 84, 0.336);
+    
+}
+
+.reduce-intro
+{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+.reduce-intro h1{
+    font-size: 2rem;
+    color: firebrick;
+    text-align: center;
+    width: 90%;
+ /*   padding: 10px;
+    background-color: rgba(36, 196, 84, 0.541);
+    height: 15vh;
+    width: 30vw;
+    border-radius: 34px;
+    */
+}
+.reduce-intro p
+{
+    width: 90%;
+    text-align: justify;
+    font-family: calibri;
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+.reduce-main
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20px; 
+    justify-content: center;  
+}
+
+.reduce-main h1
+{
+    font-size: 2rem;
+    /* background-color: black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white; */
+    color: green;
+    text-align: center;
+    width: 90%;
+}
+.reduce-main p
+{
+    width: 90%;
+    text-align: justify;
+    font-family: calibri;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.reduce-main img
+{
+    margin: 0px 0px 0px 0;
+    width: 90%;
+}
+
+.square
+{
+    width: 90%;
+    height: 40px;
+    background-color: white;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    
+}
+.square p
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0.8rem;
+    width: 65%;
+    margin-left: 20px;
+    
+}
+@media (max-width: 700px)
+{
+    
+
+    .reduce-main img
+    {
+       height: 150px; 
+    }
+}
